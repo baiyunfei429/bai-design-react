@@ -1,4 +1,4 @@
-## 1.0.1 (2023-03-22)
+## 1.0.2 (2023-03-22)
 
 
 ### Features
@@ -23,6 +23,7 @@
 * init readme.md ([3962f6c](https://gitlab.com/baiyunfei429/bai-design-react/commit/3962f6c0e8ed069875e0952ebf691ccb7e7db095))
 * install packages of react/react-Dom/prop-types ([e7ced90](https://gitlab.com/baiyunfei429/bai-design-react/commit/e7ced90826230a75378d16f817edc043da0aa7f4))
 * npm init project ([2dc87cf](https://gitlab.com/baiyunfei429/bai-design-react/commit/2dc87cf59e0e3c393468b40e1a786424f32c7d15))
+* npx conventional-changelog-cli ([d523ab3](https://gitlab.com/baiyunfei429/bai-design-react/commit/d523ab3732300ee3479777f4b23812fca25e3c93))
 * perfect alert component ([e2b763f](https://gitlab.com/baiyunfei429/bai-design-react/commit/e2b763f5f95a7ff326ea35762d7f45062ea4d653))
 
 
