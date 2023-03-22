@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "baiyunfei429's react 组件库",
   "main": "lib/index.js",
+  "module": "esm/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
     "commit": "git-cz",
