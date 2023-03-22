@@ -56,6 +56,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "serve": "^14.2.0",
+    "through2": "^4.0.2",
     "typescript": "^5.0.2"
   },
   "lint-staged": {
@@ -80,6 +81,12 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "sideEffects": [
+    "dist/*",
+    "esm/**/style/*",
+    "lib/**/style/*",
+    "*.less"
+  ],
   "dependencies": {
     "@babel/runtime": "^7.21.0",
     "prop-types": "^15.8.1"
