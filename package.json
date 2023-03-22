@@ -2,7 +2,7 @@
   "name": "bai-design-react",
   "version": "1.0.0",
   "description": "baiyunfei429's react 组件库",
-  "main": "index.js",
+  "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
     "commit": "git-cz",
@@ -11,6 +11,8 @@
     "preview:site": "cross-env SITE_BUILD_ENV=PREVIEW npm run build:site && serve doc-site",
     "deploy:site": "npm run build:site && gh-pages -d doc-site",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf lib esm dist",
+    "build": "npm run clean && npm run build:types && gulp",
     "build:types": "tsc -p tsconfig.build.json && cpr lib esm"
   },
   "repository": {
@@ -42,6 +44,8 @@
     "cz-conventional-changelog": "^3.3.0",
     "dumi": "^2.1.15",
     "gh-pages": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.0",
     "prettier": "^2.8.5",
