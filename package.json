@@ -1,6 +1,6 @@
 {
   "name": "bai-design-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "baiyunfei429's react 组件库",
   "keywords": [],
   "homepage": "https://gitlab.com/baiyunfei429/bai-design-react#readme",
@@ -29,13 +29,13 @@
     "clean": "rimraf lib esm dist",
     "commit": "git-cz",
     "deploy:site": "npm run build:site && gh-pages -d doc-site",
+    "new": "plop --plopfile ./scripts/plopfile.ts",
     "preview:site": "cross-env SITE_BUILD_ENV=PREVIEW npm run build:site && serve doc-site",
     "release": "npx ts-node ./scripts/release.ts",
     "start": "dumi dev",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:update": "jest --updateSnapshot",
-    "new": "plop --plopfile ./scripts/plopfile.ts",
     "test:watch": "jest --watch"
   },
   "husky": {
