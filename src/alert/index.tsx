@@ -12,7 +12,7 @@ export interface AlertProps {
 
 export type KindMap = Record<Required<AlertProps>['kind'], string>;
 
-const prefixCls = 'happy-alert';
+const prefixCls = 'baiyunfei-react-alert';
 
 const kinds: KindMap = {
   info: '#5352ED',

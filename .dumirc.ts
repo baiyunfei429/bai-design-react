@@ -9,7 +9,7 @@ if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
 }
 
 export default defineConfig({
-  title: 'Happy UI', // 站点名称
+  title: 'Baiyunfei React UI', // 站点名称
   // mode: 'site', // 2.0，由于 doc 模式已废弃，所以该配置项也一并废弃
   outputPath: 'doc-site', // 输出文件夹
   exportStatic: {}, // 后续会部署到 github pages 直接全部生成静态页面 不走前端路由

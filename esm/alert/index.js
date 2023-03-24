@@ -3,7 +3,7 @@ import _objectWithoutProperties from "@babel/runtime/helpers/esm/objectWithoutPr
 var _excluded = ["children", "kind"];
 import React from 'react';
 import t from 'prop-types';
-var prefixCls = 'happy-alert';
+var prefixCls = 'baiyunfei-react-alert';
 var kinds = {
   info: '#5352ED',
   positive: '#2ED573',
