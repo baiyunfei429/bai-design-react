@@ -28,7 +28,7 @@
     "build:types": "tsc -p tsconfig.build.json && cpr lib esm",
     "clean": "rimraf lib esm dist",
     "commit": "git-cz",
-    "deploy:site": "npm run build:site && gh-pages -d dist",
+    "deploy:site": "npm run build:site && gh-pages -d doc-site",
     "new": "plop --plopfile ./scripts/plopfile.ts",
     "preview:site": "cross-env SITE_BUILD_ENV=PREVIEW npm run build:site && serve doc-site",
     "release": "npx ts-node ./scripts/release.ts",
