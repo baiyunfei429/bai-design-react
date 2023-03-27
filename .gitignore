@@ -1,3 +1,5 @@
 /node_modules
 /.dumi
 .DS_Store
+# testing
+/coverage
