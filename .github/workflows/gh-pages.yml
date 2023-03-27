@@ -11,6 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: yarn
+      - run: git config --global user.email "baiyunfei429@163.com"
+      - run: git config --global user.name "baiyunfei429"
       # 文档编译命令，如果是 react 模板需要修改为 npm run docs:build
       - run: npm run deploy:site
       - name: Deploy
