@@ -7,11 +7,12 @@ export interface AlertProps {
    * @default           'info'
    */
   kind?: 'info' | 'positive' | 'negative' | 'warning';
+  children?: React.ReactNode;
 }
 
 export type KindMap = Record<Required<AlertProps>['kind'], string>;
 
-const prefixCls = 'happy-alert';
+const prefixCls = 'baiyunfei-react-alert';
 
 const kinds: KindMap = {
   info: '#5352ED',
