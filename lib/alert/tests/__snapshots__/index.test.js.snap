@@ -12,7 +12,7 @@ exports[`<Alert /> should render alert with type 1`] = `
 exports[`<Alert /> should render alert with type 2`] = `
 <div
   class="baiyunfei-react-alert"
-  style="background: rgb(255, 165, 1);"
+  style="background: rgb(255, 165, 2);"
 >
   warning
 </div>
