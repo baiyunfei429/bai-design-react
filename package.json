@@ -3,13 +3,13 @@
   "version": "1.0.4",
   "description": "baiyunfei429's react 组件库",
   "keywords": [],
-  "homepage": "https://gitlab.com/baiyunfei429/bai-design-react#readme",
+  "homepage": "https://github.com/baiyunfei429/bai-design-react#readme",
   "bugs": {
-    "url": "https://gitlab.com/baiyunfei429/bai-design-react/issues"
+    "url": "https://github.com/baiyunfei429/bai-design-react/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/baiyunfei429/bai-design-react.git"
+    "url": "git+ssh://git@github.com/baiyunfei429/bai-design-react.git"
   },
   "license": "ISC",
   "author": "",
