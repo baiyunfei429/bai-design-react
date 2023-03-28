@@ -14,6 +14,8 @@ export type KindMap = Record<Required<AlertProps>['kind'], string>;
 
 const prefixCls = 'baiyunfei-react-alert';
 
+const name = 'baiyunfei';
+
 const kinds: KindMap = {
   info: '#5352ED',
   positive: '#2ED573',

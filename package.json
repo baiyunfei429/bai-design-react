@@ -47,13 +47,12 @@
   },
   "lint-staged": {
     "src/**/*.ts?(x)": [
-      "prettier --write",
-      "eslint --fix",
+      "eslint",
       "jest --bail --findRelatedTests",
       "git add"
     ],
     "src/**/*.less": [
-      "stylelint --syntax less --fix",
+      "stylelint --syntax less",
       "git add"
     ]
   },
