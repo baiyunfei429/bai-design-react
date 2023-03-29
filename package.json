@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/baiyunfei429/bai-design-react.git"
+    "url": "git@github.com:baiyunfei429/bai-design-react.git"
   },
   "license": "ISC",
   "author": "",
