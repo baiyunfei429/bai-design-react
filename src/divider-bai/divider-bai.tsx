@@ -1,14 +1,12 @@
 import React from 'react';
-import { Props } from './interface';
+import type Props from './interface';
 
-const defaultProps = {
+const defaultProps = {};
 
-};
-
-const DividerBai: React.FC<Props> = userProps => {
+const DividerBai: React.FC<Props> = (userProps) => {
   const props = { ...defaultProps, ...userProps };
 
-  return <>DividerBai</>;
-  };
+  return <div {...props}>DividerBai</div>;
+};
 
-  export default DividerBai;
+export default DividerBai;

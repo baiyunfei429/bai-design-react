@@ -1,5 +1,5 @@
-import React from 'react';
 import t from 'prop-types';
+import React from 'react';
 
 export interface AlertProps {
   /**
@@ -18,7 +18,7 @@ const kinds: KindMap = {
   info: '#5352ED',
   positive: '#2ED573',
   negative: '#FF4757',
-  warning: '#FFA502',
+  warning: '#FFA501',
 };
 
 const Alert: React.FC<AlertProps> = ({ children, kind = 'info', ...rest }) => (

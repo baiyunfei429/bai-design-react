@@ -1,0 +1,5 @@
+.eslintrc.js
+.dumirc.ts
+esm/*
+lib/*
+doc-site/*

@@ -1,12 +1,15 @@
 import { defineConfig } from 'dumi';
+import path from 'path';
 
-let base = '/bai-design-react' // 此处更换为自己的仓库名
-let publicPath = '/bai-design-react/' // 此处更换为自己的仓库名
+let base : string | undefined = '/bai-design-react'; // 此处更换为自己的仓库名
+let publicPath : string | undefined = '/bai-design-react/'; // 此处更换为自己的仓库名
 
 if (process.env.SITE_BUILD_ENV === 'PREVIEW') {
   base = undefined;
   publicPath = undefined;
 }
+
+const resolveApp = (relativePath: string) => path.resolve(__dirname, relativePath);
 
 export default defineConfig({
   title: 'Baiyunfei React UI', // 站点名称
@@ -21,4 +24,17 @@ export default defineConfig({
   },
   base,
   publicPath,
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: 'bai-design-react',
+        libraryDirectory: '',
+        customStyleName: (name) => resolveApp(`./src/${name.toLowerCase()}/style/index.ts`),
+      },
+    ],
+  ],
+  alias: {
+    'bai-design-react': resolveApp('./src'),
+  },
 });

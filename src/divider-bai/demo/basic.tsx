@@ -1,6 +1,4 @@
+import { DividerBai } from 'bai-design-react';
 import React from 'react';
-import DividerBai from '../divider-bai';
 
-export default () => (
-<DividerBai />
-);
+export default () => <DividerBai />;
